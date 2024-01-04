@@ -10,6 +10,7 @@ from django.db import models
 #Create college models 
 
 class Student(models.Model):
+    #change gareko jasto gareko git lai ullu banako
     # student_name=models.CharField(max_length=100)
     student_id=models.AutoField(primary_key=True)
     first_name=models.CharField(max_length=100)
